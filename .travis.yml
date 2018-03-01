@@ -14,6 +14,8 @@ before_script:
 script:
  - sbt ++$TRAVIS_SCALA_VERSION coverage test coverageReport
 
-after_script:
+after_success:
  - cd target/scala-2.11/scoverage-report
  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT --coverage-input-type cobertura
+ - sbt coveralls
+ - sbt codacyCoverage
