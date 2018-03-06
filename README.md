@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ldvm/LDVMi.svg?branch=master)](https://travis-ci.org/ldvm/LDVMi)
+[![Build Status](https://travis-ci.org/ld-viz-swp/LDVMi.svg?branch=master)](https://travis-ci.org/ld-viz-swp/LDVMi)
 
 LDVMi
 ==========
@@ -9,8 +9,8 @@ This project is developed as a replacement for visualization parts in Payola pro
 
 Based on LDVM principles, it enables a user to visualize data in their dataset while it automatically offers list of suitable visualizers.
 
-- About page: http://ldvm.net
-- Live DEMO could be found at http://ldvm.opendata.cz
+- About page: https://visualization.linkedpipes.com/
+- Live DEMO could be found at https://demo.visualization.linkedpipes.com/
 - [User Guide](https://github.com/ldvm/LDVMi/blob/master/doc/UserGuide.md)
 
 Right now, it provides those visualization techniques:
@@ -28,14 +28,13 @@ Implemented analyzers:
 It also provides a simple JSON API in order to allow creating datasources and visualizations automatically by 3rd party software.
 
 ## Running the app
-- download Typesafe Activator at https://www.typesafe.com/get-started
 - clone the project
-- in the `src` folder execute `activator run` (you need to have activator in your PATH)
+- in the `src` folder execute `sbt run`
 - if you don't have any SPARQL endpoint running at `http://localhost:8890/sparql`, you may need to change the configuration in order to have everything running smoothly (e.g. pipeline execution, creating a datasource from TTL, ...)
 
 ## Authors & License
 
-© Copyright 2014 - 2015
+© Copyright 2014 - 2018
 
 ### Project lead
 
