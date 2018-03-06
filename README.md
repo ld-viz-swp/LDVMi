@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/eghuro/LDVMi.svg?branch=master)](https://travis-ci.org/eghuro/LDVMi)
+[![Build Status](https://travis-ci.org/ld-viz-swp/LDVMi.svg?branch=master)](https://travis-ci.org/ld-viz-swp/LDVMi)
 
 LDVMi
 ==========
